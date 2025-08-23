@@ -76,7 +76,7 @@ The dashboards enable business users to analyze **customers, products, sales tre
 - **Geographical Store Count** (Tree Map)  
 - **Stores Across Geographies** (Map → drill-down Continent → City)  
 - **Store Overall Sales Performance** (Table with revenue, orders, margin)  
-- **Store-based Product Order Trends** (Table)
+- **Store-based Product Order Trends** (Multi-Card)
   
 ![](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/SCREENSHOTS%20OF%20DASHBOARD/Screenshot%20(88).png)  
 
