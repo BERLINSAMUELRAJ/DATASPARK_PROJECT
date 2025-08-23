@@ -26,7 +26,73 @@ The dashboards enable business users to analyze **customers, products, sales tre
 2. **Data Management (SQL Server)**  
    - Created relational tables for Customers, Products, Sales, Stores, Exchange Rates  
    - Loaded cleaned datasets into SQL Server  
-   - Designed SQL queries for KPIs & business questions  
+   - Designed SQL queries for KPIs & business questions
+
+### 📑 Database Schema
+
+```sql
+DROP TABLE IF EXISTS Customers;
+CREATE TABLE Customers
+(
+    CustomerKey   INT,
+    Gender        VARCHAR(10),
+    Name          NVARCHAR(255),
+    City          NVARCHAR(255),
+    StateCode     VARCHAR(50),
+    State         NVARCHAR(255),
+    ZipCode       VARCHAR(20),
+    Country       VARCHAR(100),
+    Continent     VARCHAR(50),
+    Birthday      DATE
+);
+
+DROP TABLE IF EXISTS Exchange_Rates;
+CREATE TABLE Exchange_Rates
+(
+    Date      DATE,
+    Currency  VARCHAR(50),
+    Exchange  FLOAT
+);
+
+DROP TABLE IF EXISTS Products;
+CREATE TABLE Products
+(
+    ProductKey       INT,
+    [Product Name]   VARCHAR(255),
+    Brand            VARCHAR(100),
+    Color            VARCHAR(100),
+    [Unit Cost USD]  FLOAT,
+    [Unit Price USD] FLOAT,
+    SubcategoryKey   INT,
+    Subcategory      VARCHAR(255),
+    CategoryKey      INT,
+    Category         VARCHAR(255)
+);
+
+DROP TABLE IF EXISTS Sales;
+CREATE TABLE Sales
+(
+    [Order Number]   INT,
+    [Line Item]      INT,
+    [Order Date]     DATE,
+    [Delivery Date]  DATE,
+    CustomerKey      INT,
+    StoreKey         INT,
+    ProductKey       INT,
+    Quantity         INT,
+    [Currency Code]  NVARCHAR(10)
+);
+
+DROP TABLE IF EXISTS Stores;
+CREATE TABLE Stores
+(
+    StoreKey        INT,
+    Country         NVARCHAR(100),
+    State           NVARCHAR(100),
+    [Square Meters] INT,
+    [Open Date]     DATE
+);
+```
 
 3. **Visualization (Power BI)**  
    - Connected SQL database to Power BI  
