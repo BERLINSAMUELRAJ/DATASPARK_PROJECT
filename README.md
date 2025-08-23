@@ -1,5 +1,7 @@
 # 📊 DataSpark: Illuminating Insights for Global Electronics  
 
+![](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/resource-cs-dataspark_dwmbhq.webp)
+
 ## 🚀 Project Overview  
 This project is part of **Global Electronics’ Data Analytics initiative** to leverage customer, product, sales, and store data for actionable business insights. Using **SQL Server, Python, and Power BI**, we built an end-to-end pipeline from raw CSVs → cleaned datasets → SQL integration → interactive Power BI dashboards.  
 
