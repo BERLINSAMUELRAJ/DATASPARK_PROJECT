@@ -72,7 +72,9 @@ The dashboards enable business users to analyze **customers, products, sales tre
 
 ---
 
-## 📌 Key Insights  
+## 📌 Key Insights
+![](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/Customer-Journey-Map-Diagram-Brainstorm-1024x576.webp)
+
 - **Customer Behavior:** Balanced male-female split, strong retention (~61%)  
 - **Sales Trends:** Peak in 2019, drop post-2020  
 - **Products:** Computers dominate revenue, while Games & Toys underperform  
