@@ -186,14 +186,6 @@ The goal was to uncover insights, calculate key metrics, and prepare the data fo
 
 ![EUR Trend](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_exchange_volatility.png)
 
-- **Max & Min Exchange Rates per Currency:**  
-
-| Currency | Min | Max |
-|----------|-----|-----|
-| USD      | x   | y   |
-| EUR      | x   | y   |
-| GBP      | x   | y   |
-
 ---
 
 ### 🔹 Key Observations from EDA
