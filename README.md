@@ -118,16 +118,16 @@ The goal was to uncover insights, calculate key metrics, and prepare the data fo
 - **Total Customers:** `customers.shape[0]`  
 - **Gender Distribution:** Pie chart  
 
-![Gender Distribution](images/EDA/eda_gender_distribution.png)
+![Gender Distribution](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_gender_distribution.png)
 
 - **Age Distribution & Age Groups:** Histogram and bar chart  
   - `<20`, `21-30`, `31-40`, `41-50`, `51-60`, `60+`  
 
-![Age Groups](images/EDA/eda_age_groups.png)
+![Age Groups](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_age_groups.png)
 
 - **Customers per Country (Top 10):** Bar chart  
 
-![Customers by Country](images/EDA/eda_customers_country.png)
+![Customers by Country](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_customers_country.png)
 
 - **Customer Lifetime Value (CLV):** Total revenue per customer  
 - **Average Order Size:** Average quantity per customer  
@@ -139,15 +139,15 @@ The goal was to uncover insights, calculate key metrics, and prepare the data fo
 - **Total Revenue:** Sum of `Quantity * Unit Price USD` across all sales  
 - **Revenue by Product Category:** Bar chart  
 
-![Revenue by Category](images/EDA/eda_revenue_category.png)
+![Revenue by Category](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_revenue_category.png)
 
 - **Top 10 Products by Revenue:** Bar chart  
 
-![Top Products](images/EDA/eda_top_products.png)
+![Top Products](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_top_products.png)
 
 - **Price vs Revenue Correlation:** Scatter plot  
 
-![Price vs Revenue](images/EDA/eda_price_vs_revenue.png)
+![Price vs Revenue](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_price_vs_revenue.png)
 
 - **Average Order Value (AOV) per Customer:** Mean revenue per order  
 
@@ -157,32 +157,35 @@ The goal was to uncover insights, calculate key metrics, and prepare the data fo
 - **Total Stores:** `stores.shape[0]`  
 - **Stores by Country (Top 10):** Bar chart  
 
-![Stores by Country](images/EDA/eda_stores_country.png)
+![Stores by Country](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_stores_country.png)
 
 - **Average Store Size per Country:** Bar chart  
 
-![Average Store Size](images/EDA/eda_store_size.png)
+![Average Store Size](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_avg_store_size.png)
 
 - **Stores Opened Over Time:** Line chart  
 
-![Stores Opened Over Time](images/EDA/eda_store_opened.png)
+![Stores Opened Over Time](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_stores_opened.png)
 
 - **Top 10 Stores by Revenue:** Bar chart  
 
-![Top Stores by Revenue](images/EDA/eda_store_revenue.png)
+![Top Stores by Revenue](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_top_stores.png)
 
 ---
 
 ### 💱 Exchange Rate Insights
 - **Number of Records per Currency:** Bar chart  
 
-![Exchange Records](images/EDA/eda_exchange_records.png)
+![Exchange Records](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_exchange_records.png)
 
 - **Trend of EUR Exchange Rate:** Line chart  
 
-![EUR Trend](images/EDA/eda_eur_trend.png)
+![EUR Trend](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_eur_trend.png)
 
-- **Exchange Rate Volatility:** Standard deviation by currency  
+- **Exchange Rate Volatility:** Standard deviation by currency
+
+![EUR Trend](https://github.com/BERLINSAMUELRAJ/DATASPARK_PROJECT/blob/main/EDA_Visuals/eda_exchange_volatility.png)
+
 - **Max & Min Exchange Rates per Currency:**  
 
 | Currency | Min | Max |
