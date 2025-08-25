@@ -100,6 +100,113 @@ CREATE TABLE Stores
 
 ---
 
+## 📊 DataSpark: Exploratory Data Analysis (EDA)
+
+This repository contains the **Exploratory Data Analysis (EDA)** for the Global Electronics project. The EDA was performed using **Python (Pandas, Matplotlib, Seaborn)** on the following tables:
+
+- `Customers`  
+- `Sales`  
+- `Products`  
+- `Stores`  
+- `Exchange_Rates`  
+
+The goal was to uncover insights, calculate key metrics, and prepare the data for **dashboarding in Power BI**.
+
+---
+
+### 🧑 Customer Insights
+- **Total Customers:** `customers.shape[0]`  
+- **Gender Distribution:** Pie chart  
+
+![Gender Distribution](images/EDA/eda_gender_distribution.png)
+
+- **Age Distribution & Age Groups:** Histogram and bar chart  
+  - `<20`, `21-30`, `31-40`, `41-50`, `51-60`, `60+`  
+
+![Age Groups](images/EDA/eda_age_groups.png)
+
+- **Customers per Country (Top 10):** Bar chart  
+
+![Customers by Country](images/EDA/eda_customers_country.png)
+
+- **Customer Lifetime Value (CLV):** Total revenue per customer  
+- **Average Order Size:** Average quantity per customer  
+- **Total Orders per Customer:** Number of unique orders  
+
+---
+
+### 💰 Sales & Product Insights
+- **Total Revenue:** Sum of `Quantity * Unit Price USD` across all sales  
+- **Revenue by Product Category:** Bar chart  
+
+![Revenue by Category](images/EDA/eda_revenue_category.png)
+
+- **Top 10 Products by Revenue:** Bar chart  
+
+![Top Products](images/EDA/eda_top_products.png)
+
+- **Price vs Revenue Correlation:** Scatter plot  
+
+![Price vs Revenue](images/EDA/eda_price_vs_revenue.png)
+
+- **Average Order Value (AOV) per Customer:** Mean revenue per order  
+
+---
+
+### 🏬 Store Insights
+- **Total Stores:** `stores.shape[0]`  
+- **Stores by Country (Top 10):** Bar chart  
+
+![Stores by Country](images/EDA/eda_stores_country.png)
+
+- **Average Store Size per Country:** Bar chart  
+
+![Average Store Size](images/EDA/eda_store_size.png)
+
+- **Stores Opened Over Time:** Line chart  
+
+![Stores Opened Over Time](images/EDA/eda_store_opened.png)
+
+- **Top 10 Stores by Revenue:** Bar chart  
+
+![Top Stores by Revenue](images/EDA/eda_store_revenue.png)
+
+---
+
+### 💱 Exchange Rate Insights
+- **Number of Records per Currency:** Bar chart  
+
+![Exchange Records](images/EDA/eda_exchange_records.png)
+
+- **Trend of EUR Exchange Rate:** Line chart  
+
+![EUR Trend](images/EDA/eda_eur_trend.png)
+
+- **Exchange Rate Volatility:** Standard deviation by currency  
+- **Max & Min Exchange Rates per Currency:**  
+
+| Currency | Min | Max |
+|----------|-----|-----|
+| USD      | x   | y   |
+| EUR      | x   | y   |
+| GBP      | x   | y   |
+
+---
+
+### 🔹 Key Observations from EDA
+- Customers are well distributed across age groups, with strong representation in `21-40` age range.  
+- Revenue is concentrated in **Computers & Electronics**, with top products driving majority of sales.  
+- Larger stores in high-revenue countries contribute significantly to total revenue.  
+- Exchange rate fluctuations (especially EUR, GBP) affect international sales and pricing strategies.  
+
+---
+
+### 📌 Notes
+- All plots were generated using **Python** (`Matplotlib`, `Seaborn`)  
+- Images are stored in the `images/EDA/` folder and linked in this README  
+- These insights were used to build the **Power BI dashboards** for Global Electronics
+
+
 ## 📊 Dashboards  
 
 ### 🔹 **1. Performance Dashboard**  
