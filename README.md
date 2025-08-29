@@ -261,7 +261,7 @@ The goal was to uncover insights, calculate key metrics, and prepare the data fo
 
 ---
 
-## 10 SQL Queries with KeyInsights
+## 📑 10 SQL Queries with KeyInsights
 
 - **Customers** (demographics, age, top buyers)
 
